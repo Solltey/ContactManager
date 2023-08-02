@@ -1,0 +1,12 @@
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Domain\bin\Debug\net6.0\ContactManager.Domain.deps.json
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Domain\bin\Debug\net6.0\ContactManager.Domain.dll
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Domain\bin\Debug\net6.0\ContactManager.Domain.pdb
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Domain\obj\Debug\net6.0\ContactManager.Domain.csproj.AssemblyReference.cache
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Domain\obj\Debug\net6.0\ContactManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Domain\obj\Debug\net6.0\ContactManager.Domain.AssemblyInfoInputs.cache
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Domain\obj\Debug\net6.0\ContactManager.Domain.AssemblyInfo.cs
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Domain\obj\Debug\net6.0\ContactManager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Domain\obj\Debug\net6.0\ContactManager.Domain.dll
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Domain\obj\Debug\net6.0\refint\ContactManager.Domain.dll
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Domain\obj\Debug\net6.0\ContactManager.Domain.pdb
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Domain\obj\Debug\net6.0\ref\ContactManager.Domain.dll
