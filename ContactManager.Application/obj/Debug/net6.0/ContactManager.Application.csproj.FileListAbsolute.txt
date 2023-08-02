@@ -1,0 +1,17 @@
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Application\bin\Debug\net6.0\ContactManager.Application.deps.json
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Application\bin\Debug\net6.0\ContactManager.Application.dll
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Application\bin\Debug\net6.0\ContactManager.Application.pdb
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Application\bin\Debug\net6.0\ContactManager.Domain.dll
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Application\bin\Debug\net6.0\ContactManager.Persistence.dll
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Application\bin\Debug\net6.0\ContactManager.Domain.pdb
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Application\bin\Debug\net6.0\ContactManager.Persistence.pdb
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Application\obj\Debug\net6.0\ContactManager.Application.csproj.AssemblyReference.cache
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Application\obj\Debug\net6.0\ContactManager.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Application\obj\Debug\net6.0\ContactManager.Application.AssemblyInfoInputs.cache
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Application\obj\Debug\net6.0\ContactManager.Application.AssemblyInfo.cs
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Application\obj\Debug\net6.0\ContactManager.Application.csproj.CoreCompileInputs.cache
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Application\obj\Debug\net6.0\ContactManager.Application.csproj.CopyComplete
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Application\obj\Debug\net6.0\ContactManager.Application.dll
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Application\obj\Debug\net6.0\refint\ContactManager.Application.dll
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Application\obj\Debug\net6.0\ContactManager.Application.pdb
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Application\obj\Debug\net6.0\ref\ContactManager.Application.dll

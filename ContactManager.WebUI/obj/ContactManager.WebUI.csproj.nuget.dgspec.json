@@ -46,6 +46,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Dropbox.Api": {
+              "target": "Package",
+              "version": "[6.37.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -232,6 +238,9 @@
             "projectReferences": {
               "C:\\Users\\Solltey\\Desktop\\TestTask-BitsOrchestra\\ContactManager\\ContactManager.Application\\ContactManager.Application.csproj": {
                 "projectPath": "C:\\Users\\Solltey\\Desktop\\TestTask-BitsOrchestra\\ContactManager\\ContactManager.Application\\ContactManager.Application.csproj"
+              },
+              "C:\\Users\\Solltey\\Desktop\\TestTask-BitsOrchestra\\ContactManager\\ContactManager.Persistence\\ContactManager.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Solltey\\Desktop\\TestTask-BitsOrchestra\\ContactManager\\ContactManager.Persistence\\ContactManager.Persistence.csproj"
               }
             }
           }
@@ -245,6 +254,48 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.Telegram": {
+              "target": "Package",
+              "version": "[0.2.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

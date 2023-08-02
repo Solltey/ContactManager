@@ -1,0 +1,17 @@
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Persistence\bin\Debug\net6.0\ContactManager.Persistence.deps.json
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Persistence\bin\Debug\net6.0\ContactManager.Persistence.runtimeconfig.json
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Persistence\bin\Debug\net6.0\ContactManager.Persistence.dll
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Persistence\bin\Debug\net6.0\ContactManager.Persistence.pdb
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Persistence\bin\Debug\net6.0\ContactManager.Domain.dll
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Persistence\bin\Debug\net6.0\ContactManager.Domain.pdb
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Persistence\obj\Debug\net6.0\ContactManager.Persistence.csproj.AssemblyReference.cache
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Persistence\obj\Debug\net6.0\ContactManager.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Persistence\obj\Debug\net6.0\ContactManager.Persistence.AssemblyInfoInputs.cache
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Persistence\obj\Debug\net6.0\ContactManager.Persistence.AssemblyInfo.cs
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Persistence\obj\Debug\net6.0\ContactManager.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Persistence\obj\Debug\net6.0\ContactManager.Persistence.csproj.CopyComplete
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Persistence\obj\Debug\net6.0\ContactManager.Persistence.dll
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Persistence\obj\Debug\net6.0\refint\ContactManager.Persistence.dll
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Persistence\obj\Debug\net6.0\ContactManager.Persistence.pdb
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Persistence\obj\Debug\net6.0\ContactManager.Persistence.genruntimeconfig.cache
+C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.Persistence\obj\Debug\net6.0\ref\ContactManager.Persistence.dll
