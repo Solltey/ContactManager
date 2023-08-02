@@ -4,6 +4,8 @@ using ContactManager.WebUI.Interfaces;
 using ContactManager.WebUI.Models.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using NuGet.Common;
+using static Dropbox.Api.Sharing.ListFileMembersIndividualResult;
 
 namespace ContactManager.WebUI.Controllers
 {
@@ -26,61 +28,59 @@ namespace ContactManager.WebUI.Controllers
             _registrationManager = registrationManager;
         }
 
+        [HttpGet]
+        public async Task<IActionResult> SignIn()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> SignUp()
+        {
+            return View();
+        }
+
         [HttpPost]
-        public async Task<IActionResult> SignIn([FromBody] LoginRequest loginRequest)
+        public async Task<IActionResult> SignIn(LoginRequest loginRequest)
         {
             if (!ModelState.IsValid)
             {
-                var errors = ModelState.Values.SelectMany(v => v.Errors.Select(e => e.ErrorMessage));
-                return BadRequest(new LoginResult
-                {
-                    Success = false,
-                    DataValidationErrors = errors.ToList()
-                });
+                return View(loginRequest);    
             }
 
             var user = await _userManager.FindByEmailAsync(loginRequest.Email);
 
             if (user == null || !await _userManager.CheckPasswordAsync(user, loginRequest.Password))
             {
-                return Unauthorized(new LoginResult
-                {
-                    Success = false
-                });
+                return View(loginRequest);
             }
 
             var canSignIn = await _signInManager.CanSignInAsync(user);
 
             if (!canSignIn)
             {
-                return Unauthorized(new LoginResult
-                {
-                    Success = false
-                });
+                return View(loginRequest);
             }
 
             var tokenRequest = _registrationManager.GetTokenRequest(user);
 
             var jwt = await _jwtService.GetTokenAsync(tokenRequest);
 
-            return Ok(new LoginResult
+            HttpContext.Response.Cookies.Append("access_token", jwt,
+            new CookieOptions
             {
-                Success = true,
-                Token = jwt
+                MaxAge = TimeSpan.FromMinutes(240)
             });
+
+            return RedirectToAction("Index", "Home");
         }
 
         [HttpPost]
-        public async Task<IActionResult> SignUp([FromBody] RegistrationRequest registrationRequest)
+        public async Task<IActionResult> SignUp(RegistrationRequest registrationRequest)
         {
             if (!ModelState.IsValid)
             {
-                var errors = ModelState.Values.SelectMany(v => v.Errors.Select(e => e.ErrorMessage));
-                return BadRequest(new RegistrationResult
-                {
-                    Success = false,
-                    DataValidationErrors = errors.ToList()
-                });
+                return View(registrationRequest);
             }
 
             var newUser = await _registrationManager.RegisterUserAsync(
@@ -90,10 +90,7 @@ namespace ContactManager.WebUI.Controllers
 
             if (newUser == null)
             {
-                return BadRequest(new RegistrationResult
-                {
-                    Success = false
-                });
+                return View(registrationRequest);
             }
 
             var code = await _userManager.GenerateEmailConfirmationTokenAsync(newUser);
@@ -102,10 +99,7 @@ namespace ContactManager.WebUI.Controllers
 
             await _registrationManager.SendConfirmationEmailAsync(newUser, confirmationLink);
 
-            return Ok(new RegistrationResult
-            {
-                Success = true
-            });
+            return RedirectToAction("Index", "Home");
         }
 
         [HttpGet]
