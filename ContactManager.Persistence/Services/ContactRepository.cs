@@ -28,9 +28,14 @@ namespace ContactManager.Persistence.Services
             return contact;
         }
 
-        public async Task DeleteAsync(Contact contact)
+        public async Task DeleteAsync(int id)
         {
+            var contact = await GetByIdAsync(id);
+            if (contact == null)
+                return;
+
             _dbContext.Contacts.Remove(contact);
+
             await _dbContext.SaveChangesAsync();
         }
 

@@ -11,9 +11,9 @@ namespace ContactManager.Persistence.Interfaces
     {
         Task<IEnumerable<Contact>> GetAllAsync();
         Task<Contact?> GetByIdAsync(int id);
-        Task<Contact?> AddAsync(Contact url);
-        Task UpdateAsync(Contact url);
-        Task DeleteAsync(Contact url);
+        Task<Contact?> AddAsync(Contact contact);
+        Task UpdateAsync(Contact contact);
+        Task DeleteAsync(int id);
         IEnumerable<Contact> GetByUserIdAsync(string userId);
     }
 }

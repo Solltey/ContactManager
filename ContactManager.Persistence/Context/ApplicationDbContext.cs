@@ -25,6 +25,12 @@ namespace ContactManager.Persistence.Context
                 .WithMany(u => u.Contacts)
                 .HasForeignKey(c => c.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Contact>()
+                .Property(c => c.Salary)
+                .HasColumnType("decimal(18, 2)");
+
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

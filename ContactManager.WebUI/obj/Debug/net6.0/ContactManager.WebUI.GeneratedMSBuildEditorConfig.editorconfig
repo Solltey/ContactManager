@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Solltey\Desktop\TestTask-BitsOrchestra\ContactManager\ContactManager.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Solltey/Desktop/TestTask-BitsOrchestra/ContactManager/ContactManager.WebUI/Views/Account/AccountCreated.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2NvdW50Q3JlYXRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Solltey/Desktop/TestTask-BitsOrchestra/ContactManager/ContactManager.WebUI/Views/Account/EmailConfirmed.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFbWFpbENvbmZpcm1lZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -27,8 +31,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Solltey/Desktop/TestTask-BitsOrchestra/ContactManager/ContactManager.WebUI/Views/Contact/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+[C:/Users/Solltey/Desktop/TestTask-BitsOrchestra/ContactManager/ContactManager.WebUI/Views/Contact/Table.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxUYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Solltey/Desktop/TestTask-BitsOrchestra/ContactManager/ContactManager.WebUI/Views/Home/Index.cshtml]

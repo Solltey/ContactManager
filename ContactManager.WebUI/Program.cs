@@ -3,6 +3,8 @@ using ContactManager.Application.Models;
 using ContactManager.Application.Services;
 using ContactManager.Persistence.Context;
 using ContactManager.Persistence.Entities;
+using ContactManager.Persistence.Interfaces;
+using ContactManager.Persistence.Services;
 using ContactManager.WebUI.Interfaces;
 using ContactManager.WebUI.Managers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -55,6 +57,9 @@ builder.Services.AddScoped<IJwtService>(provider =>
 });
 
 builder.Services.AddScoped<IAccountManager, AccountManager>();
+builder.Services.AddScoped<IContactRepository, ContactRepository>();
+builder.Services.AddScoped<ICsvService, CsvService>();
+builder.Services.AddScoped<IContactService, ContactService>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {

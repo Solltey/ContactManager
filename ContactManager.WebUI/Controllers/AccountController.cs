@@ -109,7 +109,7 @@ namespace ContactManager.WebUI.Controllers
 
             await _registrationManager.SendConfirmationEmailAsync(newUser, confirmationLink);
 
-            return RedirectToAction("Index", "Home");
+            return View("AccountCreated");
         }
 
         [HttpGet]
