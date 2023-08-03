@@ -3,10 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ContactManager.WebUI</title>
+    <title>@ViewData["Title"] - ContactManager</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ContactManager.WebUI.styles.css" asp-append-version="true" />
+    <script src="https://kit.fontawesome.com/f41c64ca0f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -20,20 +21,32 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1 w-100">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                                <i class="nav-bar-icon fa-solid fa-house"></i>Home
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Contact" asp-action="Index">Contact Table</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Contact" asp-action="Index">
+                                <i class="nav-bar-icon fa-solid fa-address-book"></i>Contact Table
+                            </a>
                         </li>
                     </ul>
                     @if (User.Identity?.IsAuthenticated != true)
                     {
                         <ul class="navbar-nav flex-grow-1 ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="SignIn">SignIn</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="SignIn">
+                                    SignIn
+                                </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="SignUp">SignUp</a>
+                            </li>
+                        </ul>
+                    }else{
+                        <ul class="navbar-nav flex-grow-1 ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="SignOut">Logout</a>
                             </li>
                         </ul>
                     }

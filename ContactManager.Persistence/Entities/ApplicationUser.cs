@@ -9,6 +9,6 @@ namespace ContactManager.Persistence.Entities
 {
     public class ApplicationUser : IdentityUser
     {
-
+        public ICollection<Contact>? Contacts { get; set; }
     }
 }

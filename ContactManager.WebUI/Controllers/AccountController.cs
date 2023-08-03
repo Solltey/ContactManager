@@ -52,6 +52,7 @@ namespace ContactManager.WebUI.Controllers
 
             if (user == null || !await _userManager.CheckPasswordAsync(user, loginRequest.Password))
             {
+                ModelState.AddModelError("", "Incorrect Email or Password");
                 return View(loginRequest);
             }
 
@@ -59,6 +60,7 @@ namespace ContactManager.WebUI.Controllers
 
             if (!canSignIn)
             {
+                ModelState.AddModelError("", "Your Account may be Locked Out");
                 return View(loginRequest);
             }
 
@@ -71,6 +73,14 @@ namespace ContactManager.WebUI.Controllers
             {
                 MaxAge = TimeSpan.FromMinutes(240)
             });
+
+            return RedirectToAction("Index", "Home");
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> SignOut()
+        {
+            HttpContext.Response.Cookies.Delete("access_token");
 
             return RedirectToAction("Index", "Home");
         }
